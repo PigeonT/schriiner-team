@@ -27,15 +27,19 @@ body {
 }
 
 .schrinner-logo {
-  height: 60%;
-  width: 60%;
+  height: 100%;
+  width: 50%;
 }
 
+.dropdown-menu-schriiner {
+  /*right: 0; !important;*/
+  /*left: -20%; !important;*/
+}
 
 /* schriiner Section */
 .schrinner-muster {
-  height: 50%;
-  width: 50%;
+  height: 80%;
+  width: 80%;
 }
 .left-footer-text{
   display: flex;
