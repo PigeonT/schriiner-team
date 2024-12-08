@@ -1,0 +1,46 @@
+body {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.schrinner-section {
+  height: 70vh;
+}
+
+.schrinner-footer {
+  height: 20vh;
+}
+
+.schrinner-nav {
+  height: 10vh;
+}
+
+/* Nav Section */
+
+.schrinner-dot-nav {
+  font-size: 2rem;
+}
+
+.dropdown-toggle::after {
+  display: none;
+}
+
+.schrinner-logo {
+  height: 60%;
+  width: 60%;
+}
+
+
+/* schriiner Section */
+.schrinner-muster {
+  height: 50%;
+  width: 50%;
+}
+.left-footer-text{
+  display: flex;
+  justify-content: space-around;
+}
+.left-footer-text-span{
+  left: 50%;
+}
