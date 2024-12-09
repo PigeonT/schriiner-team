@@ -5,15 +5,15 @@ body {
 }
 
 .schrinner-section {
-  height: 70vh;
+  min-height: 70vh;
 }
 
 .schrinner-footer {
-  height: 20vh;
+min-height: 20vh;
 }
 
 .schrinner-nav {
-  height: 10vh;
+  min-height: 10vh;
 }
 
 /* Nav Section */
@@ -31,20 +31,72 @@ body {
   width: 50%;
 }
 
-.dropdown-menu-schriiner {
-  /*right: 0; !important;*/
-  /*left: -20%; !important;*/
-}
-
-/* schriiner Section */
+/* Schriiner Section */
 .schrinner-muster {
   height: 80%;
   width: 80%;
 }
-.left-footer-text{
+
+.left-footer-text {
   display: flex;
   justify-content: space-around;
 }
-.left-footer-text-span{
+
+.left-footer-text-span {
   left: 50%;
 }
+
+.schrinner-box-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+@media only screen and (max-width: 640px){
+  .schrinner-box {
+    width: 80% !important;
+    height: 8rem;
+    border: 2px solid rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .schrinner-logo {
+    height: 100%;
+    width: 100% !important;
+  }
+}
+
+.schrinner-box {
+  width: 32%;
+  height: 16rem;
+  border: 2px solid rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.schrinner-box:hover{
+  background-color: #7d794e;
+}
+
+.schrinner-box p {
+  word-break: break-all;
+  white-space: normal;
+  align-content: center;
+}
+
+.schrinner-top-logo {
+  height: 48px;
+  width: 64px;
+}
+
+.team-image{
+  /*width: 100%;*/
+  /*height: 100%;*/
+}
+
+/* Footer Section */
