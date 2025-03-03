@@ -34,12 +34,6 @@ body {
   padding-left: 17px;
 }
 
-
-.left-footer-text {
-  display: flex;
-  justify-content: space-around;
-}
-
 .schrinner-box-grid {
   display: flex;
   flex-wrap: wrap;
