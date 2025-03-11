@@ -62,8 +62,11 @@ body {
 }
 
 .schrinner-top-logo {
-  height: 48px;
+  height: 24px;
   width: 64px;
+}
+#schriiner-nav {
+  translate: 0px 12px;
 }
 
 .image-section {
@@ -98,3 +101,5 @@ body {
     width: 100% !important;
   }
 }
+
+
